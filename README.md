@@ -1,4 +1,21 @@
 # Deep Floor Plan Recognition using a Multi-task Network with Room-boundary-Guided Attention
+
+## 米本追記 init手順
+```
+git clone
+pyenv install 2.7.18
+cd DeepFloorPlan
+pip2.7 install "virtualenv==16.7.12"
+python2.7 -m virtualenv .venv
+source .venv/bin/activate
+pip2.7 install -r requirements.txt
+```
+- 仮想環境終了時
+```
+deactivate
+```
+
+
 By Zhiliang ZENG, Xianzhi LI, Ying Kin Yu, and Chi-Wing Fu
 
 [2021/07/26: updated download link]
